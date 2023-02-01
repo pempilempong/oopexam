@@ -1,7 +1,7 @@
 <?php 
     require_once "product.php";
 
-    class Medicine extends Products {
+    class Medicine extends Product {
        private $dose;
        private $type;
        private $expirationDate;
@@ -10,10 +10,10 @@
         $this->dose = $dose;
        }
        function setType(){
-        $this->type = $type
+        $this->type = $type;
        }
        function setExpirationDate(){
-        $this->expirationDate = $expirationDate
+        $this->expirationDate = $expirationDate;
        }
        
        function getDose(){
