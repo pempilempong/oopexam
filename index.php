@@ -1,5 +1,5 @@
 <?php
-    require_once "medicine.php";
+    require_once "Medicine.php";
     require_once "Cart.php";
 ?>
 
